@@ -1,7 +1,7 @@
 """ 
-Ein Blob ist die Basisklasse für den Spieler und die Gegner und Erbt
-von Entity. Mir ist kein Besserer Name eingefallen deswegen heißt diese klasse fürs
-Erste einfach mal Blob
+A Blob is the base class for the player and the enemies and inherits
+from Entity. I could not think of a better name for this class, so for now it is called
+Blob
 """
 import pygame
 from Entity import Entity

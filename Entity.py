@@ -1,6 +1,6 @@
 """
-Die Entity klasse ist die Basisklasse für alle
-Elemente im Spiel
+The Entity class is the base class for all the
+elements in the game
 """
 import pygame
 
