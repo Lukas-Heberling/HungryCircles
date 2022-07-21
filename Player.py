@@ -1,4 +1,3 @@
-import pygame
 from Blob import Blob
 
 class Player(Blob):

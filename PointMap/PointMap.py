@@ -34,12 +34,12 @@ class PointMap:
     # chunks are returned that actually exist in 
     # the point map XD. At the moment we just 
     # make sure that there are enough chunks but there is no limit.
-    screen_x = screen_position[0] - 150
-    screen_y = screen_position[1] - 150
-    chunk = []
-    screen_size_x = 300
-    screen_size_y = 300
-    # I will use the screen size for the chunk later
+    screen_size_x = self.window_size[0]
+    screen_size_y = self.window_size[1]
+
+    screen_x = screen_position[0] - (screen_size_x / 2)
+    screen_y = screen_position[1] - (screen_size_y / 2)
+
     max_pixel_x = screen_x + screen_size_x
     max_pixel_y = screen_y + screen_size_y
 

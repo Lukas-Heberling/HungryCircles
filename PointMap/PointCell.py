@@ -9,7 +9,7 @@ class PointCell:
     self.cell = []
     self.point_radius = 10
 
-    for i in range(0, 3):
+    for i in range(0, 7):
       # Creating a random position for the point in the cell
       new_x = randint(start_x, start_x + cell_size)
       new_y = randint(start_y, start_y + cell_size)
