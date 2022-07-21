@@ -7,10 +7,10 @@ import pygame
 from Entity import Entity
 
 class Blob(Entity):
-  def __init__(self, screen, pos_x , pos_y, start_radius, color):
+  def __init__(self, pos_x , pos_y, start_radius, color):
     super().__init__(pos_x, pos_y)
     self.radius = start_radius
-    self.screen = screen
+    self.screen = pygame.display.get_surface()
     self.color = color
 
   def set_width(self, new_width):

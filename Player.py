@@ -3,8 +3,7 @@ from Blob import Blob
 
 class Player(Blob):
   def __init__(
-    self, 
-    screen,
+    self,
     pos_x,
     pos_y,
     start_radius,
@@ -12,7 +11,6 @@ class Player(Blob):
     speed
   ):
     super().__init__(
-      screen,
       pos_x,
       pos_y,
       start_radius,
